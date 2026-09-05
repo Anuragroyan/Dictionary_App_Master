@@ -1,2 +1,1 @@
-
-It's an app for Dictionary app using google dictionary api in react_native.
+📖 Dictionary App is a React Native application that uses the Google Dictionary API to help users search for words and explore their meanings, definitions, pronunciations, phonetics, parts of speech, synonyms, and example sentences through a simple and intuitive interface.
