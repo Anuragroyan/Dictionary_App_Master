@@ -1,25 +1,31 @@
-🤖 Sarcasm Detector
+📖 Dictionary App
 
-Sarcasm Detector is a React Native application that uses a TensorFlow Lite (TFLite) machine learning model to analyze user-provided text and classify whether it contains sarcastic content. The application performs inference directly on the device, enabling real-time predictions without requiring a backend or external API.
+Dictionary App is a React Native Expo application that uses the Google Dictionary API to help users search for words and explore their meanings, definitions, pronunciations, phonetics, parts of speech, synonyms, and example sentences through a simple and intuitive interface.
 
 ✨ Key Features
 
-* 🤖 Sarcasm detection using a TFLite model
-* 📝 User-provided text analysis
-* 🧠 On-device machine learning inference
-* 📊 Text classification and prediction
-* ⚡ Real-time prediction results
-* 🔒 Offline processing without a backend
-* 🧹 Text preprocessing for model inference
-* 📱 Cross-platform React Native implementation
+* 📖 Search for words
+* 🔤 Display word definitions
+* 🗣️ View word pronunciations
+* 🔊 Explore phonetic information
+* 📝 Identify parts of speech
+* 🔄 View multiple meanings
+* 🔗 Explore synonyms
+* 💬 Display example sentences
+* ⚡ Fetch dictionary data through API
+* 🌐 Google Dictionary API integration
+* ⚠️ Handle invalid or unavailable words
+* 📱 Clean and responsive React Native UI
 
 🏗️ Architecture & Workflow
 
-The React Native interface collects and prepares the user’s text for machine learning inference. The TensorFlow Lite model processes the input directly on the device and returns a classification result indicating whether the content is sarcastic. The prediction is then presented through the React Native UI.
+The application provides a simple search interface where users enter a word they want to explore. The React Native application sends the search request to the Google Dictionary API and processes the returned dictionary data.
+
+The retrieved information is organized into definitions, pronunciations, phonetics, parts of speech, synonyms, and example sentences, allowing users to explore word information through an easy-to-use interface.
 
 🛠️ Tech Stack
 
-React Native • JavaScript • Expo • TensorFlow Lite • Machine Learning • Text Classification • On-Device AI
+React Native • Expo • JavaScript • React Hooks • Google Dictionary API • REST API • API Integration • Responsive UI
 
 ▶️ Run the App
 
@@ -43,8 +49,6 @@ npx expo start --ios
 
 npx expo start --web
 
-Note: If the TFLite implementation uses native modules, an Expo Development Build may be required instead of Expo Go.
-
 🎯 Project Purpose
 
-This project demonstrates how TensorFlow Lite models can be integrated into React Native applications to perform offline text classification. It provides practical experience with mobile AI integration, model inference, text preprocessing, Expo development, and real-time machine learning predictions without relying on backend services.
+This project demonstrates how to build an API-driven dictionary application using React Native and Expo. It provides practical experience with REST API integration, asynchronous data handling, search functionality, JSON response processing, error handling, React Hooks, and creating a responsive mobile interface for exploring language information.
